@@ -9,6 +9,7 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
+	//listen to the clickity click click
 	$('.project a').click(function(e) {
 		// Prevent following the link
 		e.preventDefault();
